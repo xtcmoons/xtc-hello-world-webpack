@@ -1,0 +1,23 @@
+{
+  "name": "xtc-hello-world-webpack",
+  "version": "1.0.0",
+  "description": "测试",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "build": "rm -rf dist && webpack",
+    "prepublish": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo",
+    "webpack"
+  ],
+  "author": "xtc",
+  "license": "MIT",
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
